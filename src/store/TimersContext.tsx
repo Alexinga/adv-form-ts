@@ -1,7 +1,7 @@
 import { createContext, useContext, useReducer, type ReactNode } from "react";
 
 // Timer Object to be held inside of the initial state "timers" array
-type Timer = {
+export type Timer = {
   name: string;
   duration: number;
 };
